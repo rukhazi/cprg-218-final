@@ -1,0 +1,135 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/*nav*/
+.navbar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    padding: 20px;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#homebutton{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: auto;
+}
+
+#page2{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: auto;
+}
+
+#page3{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: auto;
+}
+
+#page4{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: auto;
+}
+
+/*main title*/
+#title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*hero image and caption*/
+#mainsection{
+    display: flex;
+    justify-content: center;
+}
+
+#main{
+    background-color: #FAF9F6;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px #474747;
+}
+
+#maincaption{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.heroimage{
+    width: 400px;
+}
+
+/*lower section*/
+#lowersection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+#lowertitle{
+    display: flex;
+    justify-content: center;
+}
+
+#lowerimages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#lowerimage{
+    width: auto;
+    height: 200px;
+}
+
+#lower1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lower2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/*after paragraph*/
+#afterpara{
+    display: flex;
+    justify-content: center;
+}
+
+/*footer*/
+footer{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
