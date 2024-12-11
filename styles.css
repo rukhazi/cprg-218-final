@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    background-color: #fff0f0;
 }
 
 /*nav*/
@@ -11,14 +12,13 @@ html, body{
 
     display: flex;
     justify-content: space-around;
-    background-color: beige;
+    background-color: #A2574F;
     padding: 20px;
 }
 
 #buttons{
     display: flex;
     align-items: center;
-    margin-left: 15px;
 }
 
 #homebutton{
@@ -26,6 +26,7 @@ html, body{
     align-items: center;
     width: 40px;
     height: auto;
+
 }
 
 #page2{
@@ -53,12 +54,14 @@ html, body{
 #title{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 40px;
+    color: #A2574F;
 }
 
 /*hero image and caption*/
 #mainsection{
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -67,31 +70,45 @@ html, body{
     padding: 30px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-shadow: 10px 10px 10px #474747;
 }
 
 #maincaption{
-    display: flex;
-    justify-content: center;
     margin-top: 20px;
 }
 
 .heroimage{
     width: 400px;
+    height: auto;
 }
+
+.herovideo{
+    width: 300px;
+    height: auto;
+}
+
 
 /*lower section*/
 #lowersection{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 10px;
-    background-color: antiquewhite;
+    padding: 30px;
+    background-color: #FAF9F6;
+    box-shadow: 10px 10px 10px #474747;
 }
 
 #lowertitle{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    color: #A2574F;
+}
+
+.lowerpara{
+    color: #A2574F;
 }
 
 #lowerimages{
@@ -124,12 +141,16 @@ html, body{
 #afterpara{
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 /*footer*/
 footer{
-    background-color: bisque;
+    bottom: 0;
+    background-color: #A2574F;
     display: flex;
     justify-content: center;
     padding: 15px;
 }
+
+/*Media Queries*/
