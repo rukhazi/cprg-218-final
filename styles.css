@@ -1,9 +1,9 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color: #fff0f0;
-    font-family: "Cormorant Garamond", serif;
-    font-style: italic;
+    background-color: FAF9F6;
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
 }
 
 /*nav*/
@@ -58,12 +58,12 @@ html, body{
     justify-content: center;
     margin-top: 40px;
     color: #A2574F;
+    text-shadow: 1px 2px 1px #474747;
 }
 
-#content{
+.content{
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 /*hero image and caption*/
@@ -78,7 +78,6 @@ html, body{
     padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     box-shadow: 10px 10px 10px #474747;
 }
@@ -102,7 +101,7 @@ html, body{
 #lowersection{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 30px;
     background-color: #FAF9F6;
     box-shadow: 10px 10px 10px #474747;
@@ -113,7 +112,8 @@ html, body{
 .afterpara{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    align-items: center;
+    padding: 10px;
 }
 
 /*footer*/
@@ -124,6 +124,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 15px;
+    color:#FAF9F6
 }
 
 #spotify{
@@ -142,15 +143,17 @@ footer{
 
 
 /*Media Queries*/
-@media screen and (min-width: 769px) {
-    #content{
-        display: flex;
-        flex-direction: row;
-    }
-    #lowersection{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: -20px;
+@media screen and (max-width: 769px) {
+    body{
+        .content{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #lowersection{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }

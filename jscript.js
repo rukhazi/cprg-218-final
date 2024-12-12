@@ -27,5 +27,3 @@ questions.addEventListener("change",function () {
         "Raffy's favorite pokemon is Oshawatt.";
     }
 })
-
-
