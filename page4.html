@@ -5,40 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sinta0330 - Future</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant-Garamond">
     <link rel="icon" type="image/x-icon" href="media/favicon.png">
 </head>
 <body>
     <div class="navbar">
-        <a href="index.html"><img id="homebutton" src="media/stay-at-home.png" alt="Home"></a>
+        <a href="index.html"><img id="homebutton" src="media/stay-at-home.png" 
+            onmouseover="this.src='media/stay-at-home-hover.png'" 
+            onmouseout="this.src='media/stay-at-home.png'"
+            alt="Home">
+        </a>
+        
         <section id="buttons">
-            <a href="page2.html"><img id="page2" src="media/romantic.png" alt="Biography"></a>
-            <a href="page3.html"><img id="page3" src="media/envelope.png" alt="Where we met"></a>
-            <a href="page4.html"><img id="page4" src="media/love-arrow.png" alt="Future"></a>
+            <a href="page2.html"><img id="page2" src="media/romantic.png" 
+                onmouseover="this.src='media/romantic-hover.png'"
+                onmouseout="this.src='media/romantic.png'"
+                alt="Biography">
+            </a>
+            <a href="page3.html"><img id="page3" src="media/envelope.png" 
+                onmouseover="this.src='media/envelope-hover.png'"
+                onmouseout="this.src='media/envelope.png'"
+                alt="Where we met">
+            </a>
+            <a href="page4.html"><img id="page4" src="media/love-arrow.png" 
+                onmouseover="this.src='media/love-arrow-hover.png'"
+                onmouseout="this.src='media/love-arrow.png'"
+                alt="Future">
+            </a>
         </section>
     </div>
-    
     <h1 id="title">
         Looking Ahead
     </h1>
-    <section id="mainsection">
-        <figure id="main">
-            <video class="herovideo" src="media/IMG_8501.MOV" controls loop muted autoplay></video>
-            <figcaption id="maincaption">
-                we save enough money so we can move in together.
-            </figcaption>
-        </figure>
+    <section id="content">
+            <figure id="main">
+                <video class="herovideo" src="media/IMG_8501.MOV" controls loop muted autoplay></video>
+                <figcaption id="maincaption">
+                    Moving together through the unknown :3
+                </figcaption>
+            </figure>
     </section>
 
-
-
-
-    <p id="afterpara">
-        JSKAKDJBASKJD
-    </p>
-    
+        <p id="afterpara">
+            This video was taken quite a while ago, but I thought it was a nice video to have ^_^
+        </p>
+            <container id="clockdisplay" class="clock" onload="showTime()"></container>
+        <p id="afterpara">
+            alabalabalahalaba
+        </p>
+        
+    <script src="jscript2.js"></script>
     <footer>
         footer
     </footer>
-    <script src="jscript.js"></script>
 </body>
 </html>

@@ -5,58 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sinta0330 - Biography</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant-Garamond">
     <link rel="icon" type="image/x-icon" href="media/favicon.png">
 </head>
 <body>
     <div class="navbar">
-        <a href="index.html"><img id="homebutton" src="media/stay-at-home.png" alt="Home"></a>
+        <a href="index.html"><img id="homebutton" src="media/stay-at-home.png" 
+            onmouseover="this.src='media/stay-at-home-hover.png'" 
+            onmouseout="this.src='media/stay-at-home.png'"
+            alt="Home">
+        </a>
+        
         <section id="buttons">
-            <a href="page2.html"><img id="page2" src="media/romantic.png" alt="Biography"></a>
-            <a href="page3.html"><img id="page3" src="media/envelope.png" alt="Where we met"></a>
-            <a href="page4.html"><img id="page4" src="media/love-arrow.png" alt="Future"></a>
+            <a href="page2.html"><img id="page2" src="media/romantic.png" 
+                onmouseover="this.src='media/romantic-hover.png'"
+                onmouseout="this.src='media/romantic.png'"
+                alt="Biography">
+            </a>
+            <a href="page3.html"><img id="page3" src="media/envelope.png" 
+                onmouseover="this.src='media/envelope-hover.png'"
+                onmouseout="this.src='media/envelope.png'"
+                alt="Where we met">
+            </a>
+            <a href="page4.html"><img id="page4" src="media/love-arrow.png" 
+                onmouseover="this.src='media/love-arrow-hover.png'"
+                onmouseout="this.src='media/love-arrow.png'"
+                alt="Future">
+            </a>
         </section>
     </div>
 
       <h1 id="title">
         Biography
     </h1>
-    <section id="mainsection">
-        <figure id="main">
-            <img class="heroimage" src="media/heroimage2.png">
-            <figcaption id="maincaption">
-                This is Rafael! LOL (I love this picture of him)
-            </figcaption>
+    <section id="content">
+        <section id="mainsection">
+            <figure id="main">
+                <img class="heroimage" src="media/heroimage2.png">
+                <figcaption id="maincaption">
+                    This is Rafael! LOL (I love this picture of him)
+                </figcaption>
+            </figure>
+        </section>
+        <figure id="lowersection">
+            <section>
+                <h2>
+                    About Mr. Rafael
+                </h2>
+                <section">
+                    <label for="questions">Select questions about Raffy:</label>
+                        <select id="questions">
+                            <option>Choose a question! ^_^</option>
+                            <option value="answer1">Ethnicity?</option>
+                            <option value="answer2">Favorite Hobbies?</option>
+                            <option value="answer3">Favorite Sanrio Character?</option>
+                            <option value="answer4">Pokemon?</option>
+                            <!--values=use lowercase, no spaces, instead underscore-->
+                        </select>
+                        <p id="answerinput"></p>
+                </section>
+                <p>
+                    Cool little JavaScript feature. ^^ Try it out! :D
+                </p>
+            </section>
         </figure>
     </section>
-
-    
-
-    <figure id="lowersection">
-        <section>
-            <h2 id="lowertitle">
-                About Mr. Rafael
-            </h2>
-            <section">
-                <label for="questions">Select questions about Raffy:</label>
-                    <select id="questions">
-                        <option>Choose a question! ^_^</option>
-                        <option value="answer1">Ethnicity?</option>
-                        <option value="answer2">Favorite Hobbies?</option>
-                        <option value="answer3">Favorite Sanrio Character?</option>
-                        <option value="answer4">Pokemon?</option>
-                        <!--values=use lowercase, no spaces, instead underscore-->
-                    </select>
-                    <p id="answerinput"></p>
-            </section>
-            <p class="lowerpara">
-                Cool little JavaScript feature. ^^ Try it out! :D
-            </p>
-        </section>
-        
-    </figure>
-
     <p id="afterpara">
-        man i love latinos
+        ˚ʚ♡ɞ˚
     </p>
     
     <footer>
